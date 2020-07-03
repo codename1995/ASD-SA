@@ -64,13 +64,15 @@ $ python test.py --model-path weights/weights_DRE_S4ASD--0.9714--1.0364.pkl --im
 This will generate saliency maps for all images in the images directory and save them in results directory
 
 ## Requirements:
-cuda 8.0  
-cudnn 5.1  
+cuda 9.0  
+cudnn 7.0  
 python	3.5  
 keras	2.2.2  
-theano	0.9.0  
-opencv	3.1.0  
+tensorflow	1.2.1  
+opencv3	3.1.0  
 matplotlib	2.0.2  
+
+Please see detailed environment dependencies in environment.yaml.
 
 ## Acknowledgement
 The code is heavily inspired by the following project:
