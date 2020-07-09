@@ -1,6 +1,7 @@
 from __future__ import division
 import keras.backend as K
-from config import eps
+
+eps=2.2204e-16
 
 # KL-Divergence Loss
 def kl_divergence(y_true, y_pred):
