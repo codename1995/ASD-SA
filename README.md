@@ -3,26 +3,13 @@
 This repository contains Keras implementation of our atypical visual saliency prediction model.
 
 ## Cite
-TBC
+This paper has been accepted by Neurocomputing. We will update its citation and link after being published.
 
-<div style='display: none'>
-Please cite with the following Bibtex code:
-```
-@inproceedings{ASD-SA2020,
-  title={Predicting atypical visual saliency for autism spectrum disorder via scale-adaptive inception module and discriminative region enhancement loss},
-  author={Wei, Weijie and Liu, Zhi and Huang, Lijin and Nebout, Alexis and Le Meur, Olivier and Zhang, Tianhong and Wang, Jijun and Xu, Lihua},
-  booktitle={2019 IEEE International Conference on Multimedia \& Expo Workshops (ICMEW)},
-  pages={621--624},
-  year={2019},
-  organization={IEEE}
-}
-```
 
 
 ## Pretrained weight on [Saliency4ASD](https://saliency4asd.ls2n.fr/)
-[Google Drive](https://drive.google.com/file/d/1bK3CYLf_SVAmg1BMhgZgJ6fSDmQSgnkz/view?usp=sharing)
+The weight file will be realeased after the paper is available.
 
-</div>
 
 ## Training
 Train model from scratch
@@ -72,7 +59,8 @@ tensorflow	1.2.1
 opencv3	3.1.0  
 matplotlib	2.0.2  
 
-Please see detailed environment dependencies in environment.yaml.
+The detailed environment dependencies is in environment.yaml. You can easily copy the conda environment via
+`conda env create -f environment.yaml`
 
 ## Acknowledgement
 The code is heavily inspired by the following project:

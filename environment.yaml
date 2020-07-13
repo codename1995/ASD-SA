@@ -1,4 +1,4 @@
-name: mlnet
+name: ASD-SA
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo
   - test_org_002
@@ -188,5 +188,5 @@ dependencies:
     - pytools==2018.5.2
     - sphinx==1.6.3
     - tqdm==4.32.1
-prefix: /home/ivp/anaconda3/envs/mlnet
+prefix: /home/ivp/anaconda3/envs/ASD-SA
 
