@@ -52,9 +52,9 @@ The dataset directory structure should be
 ```
 **Note:** We convert the `*_f.png` files in  `Saliency4ASD\TrainingDataset\AdditionalData\ASD_FixPts\` to MAT file by following code:
 ```Matlab
-FixPts = imread('1_f.png');
-FixPts = double(FixPts)./255;
-save('1.mat', 'FixPts');
+% Matlab Code
+im = imread('1_f.png');
+save('1.mat', 'im');
 ```
 
 
