@@ -50,6 +50,13 @@ The dataset directory structure should be
         ├── 1.mat  
         └── ...
 ```
+**Note:** We convert the `*_f.png` files in  `Saliency4ASD\TrainingDataset\AdditionalData\ASD_FixPts\` to MAT file by following code:
+```Matlab
+FixPts = imread('1_f.png');
+FixPts = double(FixPts)./255;
+save('1.mat', 'FixPts');
+```
+
 
 ## Testing
 Clone this repository and download the pretrained weights.
@@ -71,6 +78,10 @@ matplotlib	2.0.2
 
 The detailed environment dependencies is in environment.yaml. You can easily copy the conda environment via
 `conda env create -f environment.yaml`
+
+## Update:
+### 2020/12/17
+The original Saliency4ASD only contains FixPts in PNG format. We provide a simple code to convert the PNG file to MAT file for easy-using of our model.
 
 ## Acknowledgement
 The code is heavily inspired by the following project:
