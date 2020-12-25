@@ -83,8 +83,7 @@ The detailed environment dependencies is in environment.yaml. You can easily cop
 ### 2020/12/17
 The original Saliency4ASD only contains FixPts in PNG format. We provide a simple code to convert the PNG file to MAT file for easy-using of our model.
 ### 2020/12/25
-Many thanks to @Imposingapple for pointing out a bug and fixing it.
-
+The test.py miss a line to sort the `file_name`. It has been fixed now.
 
 ## Acknowledgement
 The code is heavily inspired by the following project:
@@ -92,6 +91,8 @@ The code is heavily inspired by the following project:
 2. EML-Net : https://github.com/SenJia/EML-NET-Saliency
 
 Thanks for their contributions.
+
+Many thanks to [@Imposingapple](https://github.com/Imposingapple) for pointing out a bug and fixing it.
 
 ## Contact 
 If any question, please contact codename1995@shu.edu.cn
