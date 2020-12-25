@@ -62,6 +62,7 @@ if __name__ == '__main__':
 
     images_path = args.images_path
     file_names = [f for f in os.listdir(images_path) if f.endswith(('.jpg', '.jpeg', '.png'))]
+    file_names.sort()
     nb_imgs_test = len(file_names)
     print (nb_imgs_test)
 

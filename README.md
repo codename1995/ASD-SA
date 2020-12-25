@@ -82,6 +82,9 @@ The detailed environment dependencies is in environment.yaml. You can easily cop
 ## Update:
 ### 2020/12/17
 The original Saliency4ASD only contains FixPts in PNG format. We provide a simple code to convert the PNG file to MAT file for easy-using of our model.
+### 2020/12/25
+Many thanks to @Imposingapple for pointing out a bug and fixing it.
+
 
 ## Acknowledgement
 The code is heavily inspired by the following project:
