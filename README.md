@@ -79,11 +79,21 @@ matplotlib	2.0.2
 The detailed environment dependencies is in environment.yaml. You can easily copy the conda environment via
 `conda env create -f environment.yaml`
 
+## Comparison
+It is recommended to compare with our model by online benchmarks, such as
+* [MIT300](https://saliency.tuebingen.ai/results.html)
+* [SALICON/LSUN'17](https://competitions.codalab.org/competitions/17136#results)
+* [Saliency4ASD benchmark](https://saliency4asd.ls2n.fr/)
+
+But if you are interested in the comparison with our model on the *Saliency4ASD 30*, you can refer to the `./DatasetPartition.txt` for the specific index of images. 
+
 ## Update:
 ### 2020/12/17
 The original Saliency4ASD only contains FixPts in PNG format. We provide a simple code to convert the PNG file to MAT file for easy-using of our model.
 ### 2020/12/25
 The test.py miss a line to sort the `file_name`. It has been fixed now.
+### 2021/03/07
+Add the index of images in training set, validation set and testing set in the ablation study.
 
 ## Acknowledgement
 The code is heavily inspired by the following project:
