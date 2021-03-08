@@ -105,7 +105,7 @@ Thanks for their contributions.
 Many thanks to [@Imposingapple](https://github.com/Imposingapple) for pointing out a bug and fixing it.
 
 ## Contact 
-If any question, please contact codename1995@shu.edu.cn
+If you have any questions, please contact me at codename1995@shu.edu.cn or my supervisor Prof. Zhi Liu at liuzhi@staff.shu.edu.cn.
 
 ## License 
 This code is distributed under MIT LICENSE.
