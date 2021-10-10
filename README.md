@@ -5,13 +5,13 @@ This repository contains Keras implementation of our atypical visual saliency pr
 ## Cite
 Please cite with the following Bibtex code:
 ```
-@inproceedings{wei2020predicting,
+@article{wei2020predicting,
   title={Predicting atypical visual saliency for autism spectrum disorder via scale-adaptive inception module and discriminative region enhancement loss},
   author={Wei, Weijie and Liu, Zhi and Huang, Lijin and Nebout, Alexis and Le Meur, Olivier and Zhang, Tianhong and Wang, Jijun and Xu, Lihua},
   journal={Neurocomputing},
-  year={2020},
-  issn='0925-2312',
-  doi="https://doi.org/10.1016/j.neucom.2020.06.125",
+  volume={453},
+  pages={610--622},
+  year={2021},
   publisher={Elsevier}
 }
 ```
